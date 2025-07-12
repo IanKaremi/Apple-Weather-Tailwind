@@ -43,8 +43,8 @@ function App() {
                 <div>WIND</div>
               </div>
               <div className="L col-span-1 row-span-1 bg-white/20  rounded-xl flex flex-col h-full">
-                <div className='text-xs  m-[5px]'>WAXING GIBBOUS</div>
-                <div className='text-xs m-[5px] mt-auto'> Next Moonset: 1:09AM</div>
+                <div className='text-xs  mt-[10px] ml-[10px]'>WAXING GIBBOUS</div>
+                <div className='text-xs mt-auto ml-[10px] mb-[10px]'> Next Moonset: 1:09AM</div>
               </div>
               <div className="P col-span-1 row-span-1 bg-white/20  rounded-xl">
                 <div>PRECIPITATION</div>
