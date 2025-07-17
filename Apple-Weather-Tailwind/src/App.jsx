@@ -1,5 +1,6 @@
 import React from 'react'
 import Hourly from './components/hourly'
+import Ten from './components/ten'
 import './App.css'
 
 function App() {
@@ -22,18 +23,20 @@ function App() {
         <div className="Applets grid grid-rows-4 grid-cols-6 gap-4 mb-4 h-[700px] w-[1000px] text-left">
 
               <div className="H col-span-4 row-span-1 bg-black/20  rounded-xl">
-                <div className="H-desc m-2 text-xs">Cloudy conditions expected for the rest of the day. Wind gusts are upto 22km/h.</div>
+                <div className="H-desc m-2 text-xs font-bold">Cloudy conditions expected for the rest of the day. Wind gusts are upto 22km/h.</div>
                 <hr className='ml-2 bg-white/20'/>
                 <Hourly/>
 
 
               </div>
               <div className="M col-span-2 row-span-2 bg-black/20  rounded-xl ">
-                <div className="M-desc m-2">PRECIPITATION</div>
+                <div className="M-desc m-2 text-xs text-sky-100 font-extrabold">PRECIPITATION</div>
                 <div className='bg-black m-2 rounded-lg h-85/100'></div>
               </div>
               <div className="T col-span-2 row-span-4 bg-black/20  rounded-xl h-[510px]">
-                <div className='T-desc'>10-DAY-FORECAST</div>
+                <div className='T-desc m-2 text-xs text-sky-100 font-extrabold'>10-DAY-FORECAST</div>
+                <hr className='mx-2 bg-white/20'/>
+                <Ten/>
               </div>
               <div className="U col-span-1 row-span-1 bg-black/20  rounded-xl">
                 <div>UV INDEX</div>
