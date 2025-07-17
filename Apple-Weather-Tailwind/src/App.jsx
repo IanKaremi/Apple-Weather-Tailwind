@@ -28,8 +28,9 @@ function App() {
 
 
               </div>
-              <div className="M col-span-2 row-span-2 bg-black/20  rounded-xl">
-                <div className="M-desc">PRECIPITATION</div>
+              <div className="M col-span-2 row-span-2 bg-black/20  rounded-xl ">
+                <div className="M-desc m-2">PRECIPITATION</div>
+                <div className='bg-black m-2 rounded-lg h-85/100'></div>
               </div>
               <div className="T col-span-2 row-span-4 bg-black/20  rounded-xl h-[510px]">
                 <div className='T-desc'>10-DAY-FORECAST</div>
@@ -50,7 +51,7 @@ function App() {
                 <div className='text-xs mt-auto ml-[10px] mb-[10px]'> Next Moonset: 1:09AM</div>
               </div>
               <div className="P col-span-1 row-span-1 bg-black/20  rounded-xl">
-                <div>PRECIPITATION</div>
+                <div className='ml-2'>PRECIPITATION</div>
                 <p>3 mm</p>
                 <div>Today</div>
                 <p>2mm expected tommorrow.</p>
