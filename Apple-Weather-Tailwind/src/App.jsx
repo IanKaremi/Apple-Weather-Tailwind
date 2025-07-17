@@ -31,11 +31,11 @@ function App() {
               </div>
               <div className="M col-span-2 row-span-2 bg-black/20  rounded-xl ">
                 <div className="M-desc m-2 text-xs text-sky-100 font-extrabold">PRECIPITATION</div>
-                <div className='bg-black m-2 rounded-lg h-85/100'></div>
+                <div className='bg-black m-2 rounded-lg h-87/100'></div>
               </div>
               <div className="T col-span-2 row-span-4 bg-black/20  rounded-xl h-[510px]">
-                <div className='T-desc m-2 text-xs text-sky-100 font-extrabold'>10-DAY-FORECAST</div>
-                <hr className='mx-2 bg-white/20'/>
+                <div className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>10-DAY-FORECAST</div>
+                
                 <Ten/>
               </div>
               <div className="U col-span-1 row-span-1 bg-black/20  rounded-xl">
