@@ -64,15 +64,15 @@ function App() {
                 <p>22°C</p>
                 <p>Similar to the actual temperature.</p>
               </div>
-              <div className="Y col-span-1 row-span-1 bg-black/20  rounded-xl">
+              <div className="Y col-span-1 row-span-1 bg-black/20  rounded-xl flex flex-col">
                 <div className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>HUMIDITY</div>
-                <p>60%</p>
-                <p>The dew point is 11°C right now.</p>
+                <p className='T-desc m-2 mb-0 text-4xl text-white font-light'>60%</p>
+                <p className='T-desc m-2 mb-2 text-sm text-white mt-auto'>The dew point is 11°C right now.</p>
               </div>
-              <div className="V col-span-1 row-span-1 bg-black/20  rounded-xl">
+              <div className="V col-span-1 row-span-1 bg-black/20  rounded-xl flex flex-col">
                 <div className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>VISIBILITY</div>
-                <p>28 km</p>  
-                <p>Perfectly clear view.</p>
+                <p className='T-desc m-2 mb-0 text-4xl text-white font-light'>28 km</p>  
+                <p className='T-desc m-2 mb-2 text-sm text-white mt-auto'>Perfectly clear view.</p>
               </div>
               <div className="R col-span-1 row-span-1 bg-black/20  rounded-xl">
                 <p className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>PRESSURE
