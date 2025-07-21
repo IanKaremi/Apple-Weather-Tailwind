@@ -53,11 +53,11 @@ function App() {
                 <div className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>WAXING GIBBOUS</div>
                 <div className='text-xs mt-auto ml-2 mb-[10px] font-bold'> Next Moonset: 1:09AM</div>
               </div>
-              <div className="P col-span-1 row-span-1 bg-black/20  rounded-xl">
+              <div className="P col-span-1 row-span-1 bg-black/20  rounded-xl flex flex-col">
                 <div className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>PRECIPITATION</div>
-                <p>3 mm</p>
-                <div>Today</div>
-                <p>2mm expected tommorrow.</p>
+                <p className='text-4xl text-whit mx-2 mt-2'>3 mm</p>
+                <div className='text-xl text-white mx-2'>Today</div>
+                <p className='text-xs text-white mx-2 mt-auto mb-2 font-bold'>2mm expected tommorrow.</p>
               </div>
               <div className="F col-span-1 row-span-1 bg-black/20  rounded-xl flex flex-col">
                 <div className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>FEELS LIKE</div>
@@ -80,16 +80,16 @@ function App() {
               </div>
               <div className="A col-span-1 row-span-1 bg-black/20  rounded-xl">
                 <p className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>AVERAGES</p>
-                <p>+1°</p>
-                <div>above average</div><div> daily high</div>
-                <div className="A-container">
+                <p className='text-white text-4xl m-2 mb-0'>+1°</p>
+                <div className='text-white text-xs font-bold mx-2'>above average</div><div className='text-white text-xs font-bold mx-2'> daily high</div>
+                <div className="A-container mx-2 text-xs grid grid-cols-2 mt-4">
                   
-                    <div>Today</div>
-                    <div>H:23°</div>
+                    <div className='text-sky-100'>Today</div>
+                    <div className='text-white font-bold'>H:23°</div>
                   
                   
-                    <div>Average</div>
-                    <div>H:22°</div>
+                    <div className='text-sky-100'>Average</div>
+                    <div className='text-white font-bold'>H:22°</div>
                   
                 </div>
       
