@@ -51,7 +51,7 @@ function App() {
               </div>
               <div className="L col-span-1 row-span-1 bg-black/20  rounded-xl flex flex-col h-full">
                 <div className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>WAXING GIBBOUS</div>
-                <div className='text-xs mt-auto ml-[10px] mb-[10px]'> Next Moonset: 1:09AM</div>
+                <div className='text-xs mt-auto ml-2 mb-[10px] font-bold'> Next Moonset: 1:09AM</div>
               </div>
               <div className="P col-span-1 row-span-1 bg-black/20  rounded-xl">
                 <div className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>PRECIPITATION</div>
@@ -59,20 +59,20 @@ function App() {
                 <div>Today</div>
                 <p>2mm expected tommorrow.</p>
               </div>
-              <div className="F col-span-1 row-span-1 bg-black/20  rounded-xl">
+              <div className="F col-span-1 row-span-1 bg-black/20  rounded-xl flex flex-col">
                 <div className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>FEELS LIKE</div>
-                <p>22°C</p>
-                <p>Similar to the actual temperature.</p>
+                <p className='T-desc m-2 mb-0 text-4xl text-white font-light'>22°C</p>
+                <p className='T-desc m-2 mb-2 text-xs font-bold text-white mt-auto'>Similar to the actual temperature.</p>
               </div>
               <div className="Y col-span-1 row-span-1 bg-black/20  rounded-xl flex flex-col">
                 <div className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>HUMIDITY</div>
                 <p className='T-desc m-2 mb-0 text-4xl text-white font-light'>60%</p>
-                <p className='T-desc m-2 mb-2 text-sm text-white mt-auto'>The dew point is 11°C right now.</p>
+                <p className='T-desc m-2 mb-2 text-xs font-bold text-white mt-auto'>The dew point is 11°C right now.</p>
               </div>
               <div className="V col-span-1 row-span-1 bg-black/20  rounded-xl flex flex-col">
                 <div className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>VISIBILITY</div>
                 <p className='T-desc m-2 mb-0 text-4xl text-white font-light'>28 km</p>  
-                <p className='T-desc m-2 mb-2 text-sm text-white mt-auto'>Perfectly clear view.</p>
+                <p className='T-desc m-2 mb-2 text-xs font-bold text-white mt-auto'>Perfectly clear view.</p>
               </div>
               <div className="R col-span-1 row-span-1 bg-black/20  rounded-xl">
                 <p className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>PRESSURE
