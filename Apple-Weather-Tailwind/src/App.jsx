@@ -39,46 +39,47 @@ function App() {
                 <Ten/>
               </div>
               <div className="U col-span-1 row-span-1 bg-black/20  rounded-xl">
-                <div>UV INDEX</div>
+                <div className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>UV INDEX</div>
               </div>
               <div className="S col-span-1 row-span-1 bg-black/20  rounded-xl">
-                <div>SUNSET</div>
+                <div className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>SUNSET</div>
                 <p>6:38 PM</p>  
                 <div>Sunrise: 6:35AM</div>
               </div>
               <div className="W col-span-1 row-span-1 bg-black/20  rounded-xl">
-                <div>WIND</div>
+                <div className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>WIND</div>
               </div>
               <div className="L col-span-1 row-span-1 bg-black/20  rounded-xl flex flex-col h-full">
-                <div className='text-xs  mt-[10px] ml-[10px]'>WAXING GIBBOUS</div>
+                <div className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>WAXING GIBBOUS</div>
                 <div className='text-xs mt-auto ml-[10px] mb-[10px]'> Next Moonset: 1:09AM</div>
               </div>
               <div className="P col-span-1 row-span-1 bg-black/20  rounded-xl">
-                <div className='ml-2'>PRECIPITATION</div>
+                <div className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>PRECIPITATION</div>
                 <p>3 mm</p>
                 <div>Today</div>
                 <p>2mm expected tommorrow.</p>
               </div>
               <div className="F col-span-1 row-span-1 bg-black/20  rounded-xl">
-                <div>FEELS LIKE</div>
+                <div className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>FEELS LIKE</div>
                 <p>22°C</p>
                 <p>Similar to the actual temperature.</p>
               </div>
               <div className="Y col-span-1 row-span-1 bg-black/20  rounded-xl">
-                <div>HUMIDITY</div>
+                <div className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>HUMIDITY</div>
                 <p>60%</p>
                 <p>The dew point is 11°C right now.</p>
               </div>
               <div className="V col-span-1 row-span-1 bg-black/20  rounded-xl">
-                <div>VISIBILITY</div>
+                <div className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>VISIBILITY</div>
                 <p>28 km</p>  
                 <p>Perfectly clear view.</p>
               </div>
               <div className="R col-span-1 row-span-1 bg-black/20  rounded-xl">
-                Pressure
+                <p className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>PRESSURE
+                </p>
               </div>
               <div className="A col-span-1 row-span-1 bg-black/20  rounded-xl">
-                <p>AVERAGES</p>
+                <p className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>AVERAGES</p>
                 <p>+1°</p>
                 <div>above average</div><div> daily high</div>
                 <div className="A-container">
