@@ -82,14 +82,14 @@ function App() {
                 <p className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>AVERAGES</p>
                 <p className='text-white text-4xl m-2 mb-0'>+1°</p>
                 <div className='text-white text-xs font-bold mx-2'>above average</div><div className='text-white text-xs font-bold mx-2'> daily high</div>
-                <div className="A-container mx-2 text-xs grid grid-cols-2 mt-4">
+                <div className="A-container mx-2 text-xs grid grid-cols-3 mt-4">
                   
-                    <div className='text-sky-100'>Today</div>
-                    <div className='text-white font-bold'>H:23°</div>
+                    <div className='text-sky-100 col-span-2'>Today</div>
+                    <div className='text-white font-bold col-span-1 text-right'>H:23°</div>
                   
                   
-                    <div className='text-sky-100'>Average</div>
-                    <div className='text-white font-bold'>H:22°</div>
+                    <div className='text-sky-100 col-span-2'>Average</div>
+                    <div className='text-white font-bold col-span-1 text-right'>H:22°</div>
                   
                 </div>
       
