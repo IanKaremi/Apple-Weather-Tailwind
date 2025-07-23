@@ -11,7 +11,7 @@ function App() {
     <div className="basis-1/5"></div>
     <main className= "basis-3/5 min-w-[900px] max-w-[1200px] h-full flex flex-col">
       <div className='basis-2/20'></div>
-      
+ 
       <div className="Head  basis-4/20 mb-8 mt-8">
               <p className='text-xs'>MY LOCATION</p>
               <p className="location text-3xl">Nairobi</p>
@@ -38,19 +38,26 @@ function App() {
                 
                 <Ten/>
               </div>
-              <div className="U col-span-1 row-span-1 bg-black/20  rounded-xl">
+              <div className="U col-span-1 row-span-1 bg-black/20  rounded-xl flex flex-col">
                 <div className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>UV INDEX</div>
+                <p className='text-4xl text-whit mx-2 mt-2'>6</p>
+                <div className='text-xl text-white mx-2'>High</div>
+                <p className='text-xs text-white mx-2 mt-auto mb-2 font-bold'>Use sun protection until 5PM.</p>
               </div>
-              <div className="S col-span-1 row-span-1 bg-black/20  rounded-xl">
+              <div className="S col-span-1 row-span-1 bg-black/20  rounded-xl flex flex-col">
                 <div className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>SUNSET</div>
-                <p>6:38 PM</p>  
-                <div>Sunrise: 6:35AM</div>
+                <p className='T-desc m-2 mb-0 text-4xl text-white font-light'>6:38 PM</p>  
+                <div className='text-xs mt-auto ml-2 mb-[10px] font-bold'>Sunrise: 6:35AM</div>
               </div>
-              <div className="W col-span-1 row-span-1 bg-black/20  rounded-xl">
+              <div className="W col-span-1 row-span-1 bg-black/20  rounded-xl flex flex-col">
                 <div className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>WIND</div>
+                <p className='text-4xl text-whit mx-2 mt-2'>3 km\h</p>
+                <div className='text-xl text-white mx-2'>ESE</div>
+                <p className='text-xs text-white mx-2 mt-auto mb-2 font-bold'>Gusts 19km\h ESE.</p>
               </div>
               <div className="L col-span-1 row-span-1 bg-black/20  rounded-xl flex flex-col h-full">
                 <div className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>WAXING GIBBOUS</div>
+                <div className='bg-white/40 rounded-full my-2 mx-auto h-[100px] w-[100px]'></div>
                 <div className='text-xs mt-auto ml-2 mb-[10px] font-bold'> Next Moonset: 1:09AM</div>
               </div>
               <div className="P col-span-1 row-span-1 bg-black/20  rounded-xl flex flex-col">
@@ -59,6 +66,7 @@ function App() {
                 <div className='text-xl text-white mx-2'>Today</div>
                 <p className='text-xs text-white mx-2 mt-auto mb-2 font-bold'>2mm expected tommorrow.</p>
               </div>
+             
               <div className="F col-span-1 row-span-1 bg-black/20  rounded-xl flex flex-col">
                 <div className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>FEELS LIKE</div>
                 <p className='T-desc m-2 mb-0 text-4xl text-white font-light'>22°C</p>
@@ -74,9 +82,10 @@ function App() {
                 <p className='T-desc m-2 mb-0 text-4xl text-white font-light'>28 km</p>  
                 <p className='T-desc m-2 mb-2 text-xs font-bold text-white mt-auto'>Perfectly clear view.</p>
               </div>
-              <div className="R col-span-1 row-span-1 bg-black/20  rounded-xl">
-                <p className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>PRESSURE
-                </p>
+              <div className="R col-span-1 row-span-1 bg-black/20  rounded-xl flex-col flex">
+                <p className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>PRESSURE</p>
+                <p className='T-desc m-2 mb-0 text-4xl text-white font-light'>1019 hPa</p>  
+                <p className='T-desc m-2 mb-2 text-xs font-bold text-white text-nowrap mt-auto'>Average</p>
               </div>
               <div className="A col-span-1 row-span-1 bg-black/20  rounded-xl">
                 <p className='T-desc m-2 mb-0 text-xs text-sky-100 font-extrabold'>AVERAGES</p>
