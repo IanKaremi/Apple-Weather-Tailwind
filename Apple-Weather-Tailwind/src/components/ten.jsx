@@ -15,9 +15,9 @@ export default function Ten(){
         <hr className='bg-white/20 m-0 p-0'/>
         <div className="flex justify-between items-center-safe">
             <div className="basis-3/10">{day}</div>
-            <div className="basis-2/10 flex flex-col items-center-safe">
-                <div>{emoji[state]}</div>
-                {rain_chance!=null ? <div className="text-sky-300">{rain_chance}%</div> : "ㅤ"}
+            <div className="basis-2/10 grid grid-rows-[1fr_auto] h-12">
+                <div className="self-center">{emoji[state]}</div>
+                {rain_chance!=null ? <div className="text-sky-300">{rain_chance}%</div> : ""}
             </div>
             
             <div className="basis-3/10">{min}</div>
